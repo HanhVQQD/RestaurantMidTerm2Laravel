@@ -1,0 +1,23 @@
+.card_Detail{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    margin-left: 20rem;
+    background-color: beige;
+}
+
+.imageLeft{
+    max-width: 300px;
+    max-height: 500px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin: 20px
+}
+
+.price{
+    color: red;
+}
+
+.right_detail_admin{
+    margin: 100px 0 0 20px;
+}

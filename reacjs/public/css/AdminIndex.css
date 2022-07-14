@@ -1,0 +1,59 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.table ,th ,td{
+    border: 1px solid black;
+} 
+
+.List{
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+}
+
+.editBtn{
+    background-color: rgb(16, 16, 209);
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.deleteBtn {
+    background-color: brown;
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+
+.addBtn{   
+    background-color: rgb(245, 112, 112);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    border: none;
+}
+
+/* ------------------------ */
+.description{
+    width: 120px;
+}
+
+.promotionPrice{
+    width: 5%;
+}
+
+.quantity1 {
+    width: 3%;
+}
+
+.id_type{
+    width: 5%;
+}
+
+.name{
+    width: 5%;
+}

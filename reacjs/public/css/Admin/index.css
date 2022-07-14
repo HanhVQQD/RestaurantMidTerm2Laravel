@@ -1,0 +1,94 @@
+.heading_container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.typeProduct{
+    color: rgb(0, 0, 0);
+}
+
+.typeProduct a {
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.typeProduct a:hover {
+    text-decoration: underline;
+    color: rgb(226, 0, 0);
+}
+
+.product_section_h2{
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: bisque;
+}
+
+/* ----------------Top Product----------------- */
+/* Img */
+.single-item-header {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+
+.viewMore{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(199, 15, 15);
+    color: aliceblue;
+    max-width: 500px;
+    max-height: 50px;
+    text-decoration: none;
+}
+
+.viewMore:hover {
+    background-color: rgb(9, 9, 9);
+    color: aliceblue;
+}
+/* ---------------------- */
+.single-item{
+    box-shadow: 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.detail{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(199, 15, 15);
+    color: aliceblue;
+    border: 2px solid black;
+    padding: 0.1rem 0.8rem
+}
+
+.detail:hover {
+    background-color: rgb(9, 9, 9);
+    color: aliceblue;
+}
+
+/* -----ADD TO CART----------------- */
+.add-to-cart p:hover {
+    background: #f90;
+}
+
+.add-to-cart i {
+    font-size: 22px;
+    color: #fff;
+    line-height: 35px;
+}
+
+.add-to-cart {
+    background-color: #3a5c83;
+    height: 35px;
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* --------------END ADD TO CART-------------- */
